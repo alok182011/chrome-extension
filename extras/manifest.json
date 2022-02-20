@@ -1,0 +1,13 @@
+{
+  "name": "Google Shortcuts",
+  "offline_enabled": true,
+  "short_name": "Google Shortcuts",
+  "description": "Google Shortcuts",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open a new Google Service"
+  },
+  "permissions": ["storage", "tabs", "activeTab", "http://*/*", "https://*/*"]
+}
